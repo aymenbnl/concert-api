@@ -81,6 +81,10 @@ public class ArticleServiceImpl implements ArticleService {
             article.setLien(articleDto.getLien());
             article.setDate(articleDto.getDate());
             article.setSalle(articleDto.getSalle());
+            article.setConcert(articleDto.getConcert());
+            article.setSoiree(articleDto.getSoiree());
+            article.setGroupe(articleDto.getGroupe());
+            article.setArtiste(articleDto.getArtiste());
             article.setAuteurNom(articleDto.getAuteurNom());
             article.setAuteurPrenom(articleDto.getAuteurPrenom());
             article.setAuteurDescription(articleDto.getAuteurDescription());
@@ -103,6 +107,10 @@ public class ArticleServiceImpl implements ArticleService {
         articleDto.setAuteurPrenom(article.getAuteurPrenom());
         articleDto.setAuteurDescription(article.getAuteurDescription());
         articleDto.setSalle(article.getSalle());
+        articleDto.setConcert(article.getConcert());
+        articleDto.setSoiree(article.getSoiree());
+        articleDto.setGroupe(article.getGroupe());
+        articleDto.setArtiste(article.getArtiste());
         return articleDto;
     }
 

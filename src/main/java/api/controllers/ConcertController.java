@@ -44,6 +44,7 @@ public class ConcertController {
 	 */
 	@PostMapping
 	public ConcertDto saveConcert(final @RequestBody ConcertDto concertDto){
+		System.out.println("save");
 		return concertService.saveConcert(concertDto);
 	}
 

@@ -81,6 +81,10 @@ public class ImageServiceImpl implements ImageService {
             image.setLien(imageDto.getLien());
             image.setDate(imageDto.getDate());
             image.setSalle(imageDto.getSalle());
+            image.setConcert(imageDto.getConcert());
+            image.setSoiree(imageDto.getSoiree());
+            image.setGroupe(imageDto.getGroupe());
+            image.setArtiste(imageDto.getArtiste());
             image.setAuteurNom(imageDto.getAuteurNom());
             image.setAuteurPrenom(imageDto.getAuteurPrenom());
             image.setAuteurDescription(imageDto.getAuteurDescription());
@@ -103,6 +107,10 @@ public class ImageServiceImpl implements ImageService {
         imageDto.setAuteurPrenom(image.getAuteurPrenom());
         imageDto.setAuteurDescription(image.getAuteurDescription());
         imageDto.setSalle(image.getSalle());
+        imageDto.setConcert(image.getConcert());
+        imageDto.setSoiree(image.getSoiree());
+        imageDto.setGroupe(image.getGroupe());
+        imageDto.setArtiste(image.getArtiste());
         return imageDto;
     }
 

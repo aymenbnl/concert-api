@@ -24,5 +24,9 @@ public class Article {
 	@Field("auteur.description")
 	private String auteurDescription;
 	private int salle;
+	private int concert;
+	private int soiree;
+	private int groupe;
+	private int artiste;
 	
 }

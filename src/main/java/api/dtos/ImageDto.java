@@ -14,12 +14,16 @@ public class ImageDto {
 	private String nom;
 	private String lien;
 	private String date;
-	@JsonProperty("auteur.nom")
+	@JsonProperty("auteurNom")
 	private String auteurNom;
-	@JsonProperty("auteur.prenom")
+	@JsonProperty("auteurPrenom")
 	private String auteurPrenom;
-	@JsonProperty("auteur.descritpion")
+	@JsonProperty("auteurDesc")
 	private String auteurDescription;
 	private int salle;
+	private int concert;
+	private int soiree;
+	private int groupe;
+	private int artiste;
 
 }
