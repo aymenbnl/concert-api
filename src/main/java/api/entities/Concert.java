@@ -1,13 +1,11 @@
 package api.entities;
 
-import java.sql.Time;
-import java.sql.Date;
-
-import javax.persistence.*;
-
-import api.repositories.ConcertRepository;
 import com.fasterxml.jackson.annotation.JsonBackReference;
 import lombok.Data;
+
+import javax.persistence.*;
+import java.sql.Date;
+import java.sql.Time;
 
 @Entity
 @Data

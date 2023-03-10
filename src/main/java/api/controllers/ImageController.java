@@ -1,10 +1,8 @@
 package api.controllers;
 
 import api.dtos.ImageDto;
-import org.bson.types.ObjectId;
-import org.springframework.web.bind.annotation.*;
-
 import api.services.impl.ImageServiceImpl;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 

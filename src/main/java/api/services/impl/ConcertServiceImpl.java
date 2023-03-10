@@ -2,14 +2,10 @@ package api.services.impl;
 
 import api.dtos.ConcertDto;
 import api.entities.Concert;
-import api.entities.Salle;
 import api.entities.Soiree;
 import api.repositories.ConcertRepository;
 import api.services.ConcertService;
-import net.bytebuddy.description.NamedElement;
-import org.hibernate.action.internal.EntityActionVetoException;
 import org.springframework.stereotype.Service;
-import org.springframework.web.client.RestClientException;
 
 import javax.persistence.EntityNotFoundException;
 import javax.persistence.PersistenceException;

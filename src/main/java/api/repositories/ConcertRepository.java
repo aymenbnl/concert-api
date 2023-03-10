@@ -1,7 +1,6 @@
 package api.repositories;
 
 import api.entities.Concert;
-import api.entities.Image;
 import api.entities.Soiree;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;

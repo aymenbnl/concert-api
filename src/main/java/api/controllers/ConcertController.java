@@ -1,15 +1,12 @@
 package api.controllers;
 
 import api.dtos.ConcertDto;
-import api.dtos.SoireeDto;
-import api.entities.Concert;
 import api.entities.Soiree;
 import api.services.impl.ConcertServiceImpl;
 import org.springframework.web.bind.annotation.*;
 
 import java.sql.Date;
 import java.sql.Time;
-import java.util.ArrayList;
 import java.util.List;
 
 @RestController

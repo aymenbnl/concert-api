@@ -1,10 +1,8 @@
 package api.controllers;
 
 import api.dtos.ArticleDto;
-import org.bson.types.ObjectId;
-import org.springframework.web.bind.annotation.*;
-
 import api.services.impl.ArticleServiceImpl;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
